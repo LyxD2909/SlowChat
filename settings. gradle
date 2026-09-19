@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven { url = 'https://repo.papermc.io/repository/maven-public/' }
+    }
+}
+
+dependencyResolutionManagement {
+    repositories {
+        maven { url = 'https://repo.papermc.io/repository/maven-public/' }
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'SlowChat'
