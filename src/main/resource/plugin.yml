@@ -1,0 +1,20 @@
+name: SlowChat
+version: 1.0.0
+main: com.LyxD.slowchat.SlowChatPlugin
+api-version: '1.21'
+description: Adds a configurable global chat cooldown.
+
+commands:
+  slowchat:
+    description: Set the global chat cooldown in seconds.
+    usage: /slowchat <seconds>
+    permission: slowchat.admin
+
+permissions:
+  slowchat.admin:
+    description: Allows changing the global chat cooldown.
+    default: op
+
+  slowchat.bypass:
+    description: Bypasses the chat cooldown.
+    default: false
